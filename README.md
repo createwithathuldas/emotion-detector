@@ -32,24 +32,25 @@ cd emotion-detector
 # Install dependencies:
 
 > pip install -r requirements.txt
-# Configuration
+> # Configuration
 
-# Set the following environment variables:
+> # Set the following environment variables:
 
-*WATSON_API_KEY*
+> *WATSON_API_KEY*
 
-*WATSON_URL*
+> *WATSON_URL*
 
-# Running the Application
-python server.py
+> # Running the Application
+> python server.py
 
-# Access the application at:
+> # Access the application at:
 
-http://localhost:5000
-# Testing
-python -m unittest
+> http://localhost:5000
+> # Testing
+> python -m unittest
+
+
 # Features
->
 - Emotion detection using IBM Watson NLP
 
 - Dominant emotion identification
